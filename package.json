@@ -1,5 +1,5 @@
 {
-  "name": "dogfinder",
+  "name": "part-1-dog-finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,5 +37,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js",
+      "!src/reportWebVitals.js"
+    ]
+}
 }
